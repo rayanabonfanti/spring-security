@@ -10,7 +10,9 @@ A branch `basic-auth` ilustra a autenticação básica usando o Spring Security.
 
 Você pode verificar a branch `basic-auth` para explorar a implementação da autenticação básica. Use os seguintes comandos para alternar para a branch e executar a aplicação:
 
-Exemplo: `git checkout basic-auth`
+```bash
+git checkout basic-auth
+```
 
 # Branch okta-oauth2
 
