@@ -1,0 +1,17 @@
+# datasource
+spring:
+  datasource:
+    #driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:sqlserver://server-spring-boot.database.windows.net:1433;database=db-basic-auth;user=server-root@server-spring-boot;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30; #jdbc:mysql://localhost/db_basic_auth_mysql?useTimezone=true&serverTimezone=UTC
+    username: server-root #root
+    password: Teste@123
+  # jpa
+  jpa:
+    #defer-datasource-initialization: true
+    hibernate.ddl-auto: update
+    properties.hibernate.show_sql: true
+    #properties.hibernate.format_sql: true
+    properties.hibernate.dialect: org.hibernate.dialect.SQLServer2012Dialect
+# port server
+server:
+  port: 8090
