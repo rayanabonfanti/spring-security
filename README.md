@@ -22,7 +22,9 @@ A branch `okta-oauth2` demonstra a autenticação usando Okta como provedor de i
 
 Para explorar a implementação da autenticação com Okta e OAuth 2.0, você pode verificar a branch `okta-oauth2` e executar a aplicação da seguinte maneira:
 
-Exemplo: `git checkout okta-oauth2`
+```bash
+git checkout okta-oauth2
+```
 
 ## Contribuições
 
