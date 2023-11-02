@@ -1,0 +1,9 @@
+com\basicauth\springsecurity\repositories\UsersRepository.class
+com\basicauth\springsecurity\BasicAuthApplication.class
+com\basicauth\springsecurity\controller\LoginController.class
+com\basicauth\springsecurity\config\SecurityConfig.class
+com\basicauth\springsecurity\model\Users$UsersBuilder.class
+com\basicauth\springsecurity\service\UserService.class
+com\basicauth\springsecurity\config\TempAuthenticationProvider.class
+com\basicauth\springsecurity\model\Users.class
+com\basicauth\springsecurity\controller\UserController.class
